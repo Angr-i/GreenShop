@@ -319,12 +319,6 @@ input[type=range]::-webkit-slider-thumb {
   cursor: pointer;
 }
 
-.shop__categories__size-title {
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 16px;
-}
-
 .shop__categories__price-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -334,4 +328,94 @@ input[type=range]::-webkit-slider-thumb {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-left: 12px;
+}
+
+.shop__categories__size-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.shop__categories__size-blocks {
+  margin-left: 12px;
+}
+
+.shop__categories__size-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #3d3d3d;
+  cursor: pointer;
+}
+.shop__categories__size-block:last-child {
+  margin-bottom: 23px;
+}
+.shop__categories__size-block:hover {
+  color: #46a358;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.shop__sorts {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.shop__sort {
+  padding-bottom: 3px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #3d3d3d;
+  -webkit-transition: border-bottom 0.1s ease-out, font-weight 0.1s ease-out;
+  transition: border-bottom 0.1s ease-out, font-weight 0.1s ease-out;
+}
+.shop__sort:hover {
+  -webkit-transition: border-bottom 0.1s ease-out, font-weight 0.1s ease-out;
+  transition: border-bottom 0.1s ease-out, font-weight 0.1s ease-out;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 16px;
+  color: #46a358;
+  border-bottom: 2px solid #46a358;
+}
+
+.shop__sort-left {
+  min-width: 260px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.shop__block {
+  margin-bottom: 50px;
+}
+
+.shop__block-title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #3d3d3d;
+}
+
+.shop__block-price {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16px;
+  color: #46a358;
+  margin-top: 9px;
 }
