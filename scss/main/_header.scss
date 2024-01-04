@@ -1,0 +1,44 @@
+.header {
+  margin-top: 80px;
+  &__wrape {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    color: #3d3d3d;
+    font-family: Cera Pro;
+    &-base {
+      font-size: 70px;
+      font-weight: 900;
+      line-height: 70px;
+      text-transform: uppercase;
+      span {
+        color: #46a358;
+      }
+    }
+  }
+  &-title {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+  }
+  &-subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 557px;
+  }
+  &-button {
+    display: flex;
+    a {
+      color: #fff;
+      background-color: #46a358;
+      padding: 15px 26px;
+      margin-top: 44px;
+      border-radius: 6px;
+    }
+  }
+}
