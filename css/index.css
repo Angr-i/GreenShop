@@ -210,3 +210,128 @@ a {
   margin-top: 44px;
   border-radius: 6px;
 }
+
+.shop {
+  font-family: Cera Pro;
+}
+
+.shop-wrape {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.shop-blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.shop__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.shop__categories {
+  margin-right: 50px;
+}
+
+.shop__categories-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.shop__categories-blocks {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.shop__categories-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 12px;
+  color: #3d3d3d;
+}
+.shop__categories-block:hover {
+  color: #46a358;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.shop__categories-input::-moz-range-track,
+input[type=range]::-webkit-slider-runnable-track,
+.shop__categories-input::-webkit-slider-runnable-track {
+  border: none;
+  background: #46a358 !important;
+}
+
+.shop__categories-input::-moz-range-thumb,
+.shop__categories-input::-webkit-slider-thumb {
+  border: solid #fff;
+  border-radius: 20px;
+  background: #46a358;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  border: none;
+  background: #46a358;
+  height: 5px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: solid #fff;
+  border-radius: 20px;
+  background: #46a358;
+  margin-top: -4px;
+}
+
+.shop__categories__price-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 16px;
+  margin-bottom: 46px;
+}
+
+.shop__categories__price-button {
+  color: #ffffff;
+  background-color: #46a358;
+  padding: 11px 26px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.shop__categories__size-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.shop__categories__price-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 12px;
+}
