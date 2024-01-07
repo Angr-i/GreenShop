@@ -24,13 +24,14 @@
 }
 .blog__blocks {
   display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 .blog__block {
   background-color: #fbfbfb;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 44px;
 }
 .blog__block-header {
   max-width: 230px;
