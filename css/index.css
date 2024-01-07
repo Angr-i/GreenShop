@@ -212,6 +212,7 @@ a {
 }
 
 .shop {
+  margin-top: 26px;
   font-family: Cera Pro;
 }
 
@@ -403,6 +404,7 @@ input[type=range]::-webkit-slider-thumb {
 
 .shop__block {
   margin-bottom: 50px;
+  margin-right: 20px;
 }
 
 .shop__block-title {
@@ -412,10 +414,116 @@ input[type=range]::-webkit-slider-thumb {
   color: #3d3d3d;
 }
 
+.shop__block-img img {
+  background-color: #fbfbfb;
+}
+
 .shop__block-price {
   font-size: 18px;
   font-weight: 700;
   line-height: 16px;
   color: #46a358;
   margin-top: 9px;
+}
+
+.shop__foter {
+  margin-right: 40px;
+}
+
+.shop__foter-blocks {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.shop__foter-block {
+  margin-left: 10px;
+  padding: 10px 15px;
+  color: #3d3d3d;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+}
+
+.shop__foter-block-on {
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  background-color: #46a358;
+}
+
+.findmore__blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 95px;
+}
+
+.findmore__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url(../../assets/img/bg.png);
+  margin-right: 91px;
+}
+.findmore__block:last-child {
+  margin-right: 0px;
+}
+
+.findmore__block-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: right;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.findmore__block-title {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 24px;
+  max-width: 150px;
+  text-align: right;
+  color: #3d3d3d;
+  margin-bottom: 19px;
+}
+
+.findmore__block-subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 31px;
+  color: #727272;
+}
+
+.findmore__block-button a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  background-color: #46a358;
+  padding: 12px 28px;
+  border-radius: 6px;
 }

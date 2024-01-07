@@ -1,4 +1,5 @@
 .shop {
+  margin-top: 26px;
   font-family: Cera Pro;
 }
 .shop-wrape {
@@ -134,6 +135,7 @@ input[type='range']::-webkit-slider-thumb {
 }
 .shop__block {
   margin-bottom: 50px;
+  margin-right: 20px;
 }
 .shop__block-title {
   font-size: 16px;
@@ -141,10 +143,39 @@ input[type='range']::-webkit-slider-thumb {
   line-height: 16px;
   color: #3d3d3d;
 }
+.shop__block-img {
+  img {
+    background-color: #fbfbfb;
+  }
+}
 .shop__block-price {
   font-size: 18px;
   font-weight: 700;
   line-height: 16px;
   color: #46a358;
   margin-top: 9px;
+}
+.shop__foter {
+  margin-right: 40px;
+}
+.shop__foter-blocks {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16px;
+  display: flex;
+  justify-content: right;
+}
+.shop__foter-block {
+  margin-left: 10px;
+  padding: 10px 15px;
+
+  color: #3d3d3d;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+}
+.shop__foter-block-on {
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  background-color: #46a358;
 }
