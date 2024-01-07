@@ -5,7 +5,10 @@
 .findmore__block {
   display: flex;
   background-image: url(../../assets/img/bg.png);
+  background-color: #fbfbfb;
   margin-right: 91px;
+  border-radius: 5px;
+  padding: 10px;
   &:last-child {
     margin-right: 0px;
   }
