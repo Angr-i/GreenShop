@@ -3,6 +3,7 @@
 }
 .footer-wrape {
   display: flex;
+  flex-direction: column;
 }
 .footer__header {
   padding: 25px 23px;
@@ -92,4 +93,101 @@
   line-height: 22px;
   color: #727272;
   max-width: 354px;
+}
+.footer__main {
+  border-top: solid rgba(70, 163, 88, 0.2) 1px;
+  border-bottom: solid rgba(70, 163, 88, 0.2) 1px;
+  font-family: Cera Pro;
+  font-size: 14px;
+  font-weight: 400;
+
+  background: #46a3581a;
+  padding: 15px 23px;
+}
+.footer__main-logo {
+  color: #46a358 !important;
+  font-size: 18px !important;
+  font-weight: 900 !important;
+  line-height: 70px !important;
+  letter-spacing: 0em !important;
+
+  text-transform: uppercase;
+  img {
+    margin-right: 6px;
+  }
+}
+.footer__main-blocks {
+  display: flex;
+  justify-content: space-between;
+  max-width: 910px;
+  color: #3d3d3d;
+}
+.footer__main-block {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 210px;
+  img {
+    margin-right: 10px;
+  }
+}
+.footer__about {
+  padding: 32px 23px;
+  font-family: Cera Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #3d3d3d;
+  justify-content: space-between;
+  display: flex;
+}
+.blood {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16px;
+}
+.footer__about-blocks {
+  font-family: Cera Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__about-block {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 160px;
+  &:last-child {
+    margin-right: 0px;
+  }
+  ul {
+    li {
+      min-width: 130px;
+    }
+  }
+}
+.about__social-blocks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+.about__social-block-title {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16px;
+}
+.footer__about-creator {
+  display: flex;
+  justify-content: center;
+  opacity: 0.45;
 }
