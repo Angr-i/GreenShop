@@ -259,6 +259,10 @@ a {
   line-height: 40px;
 }
 
+.shop__sorts {
+  margin-bottom: 10px;
+}
+
 .shop__categories-block {
   display: -webkit-box;
   display: -ms-flexbox;
